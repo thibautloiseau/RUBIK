@@ -1,0 +1,17 @@
+opencv_python
+albumentations --no-binary=imgaug,albumentations
+ray
+einops
+kornia
+loguru
+yacs
+tqdm
+autopep8
+pylint
+ipython
+jupyterlab
+matplotlib
+h5py
+pytorch-lightning
+torchmetrics  # version problem: https://github.com/NVIDIA/DeepLearningExamples/issues/1113#issuecomment-1102969461
+joblib

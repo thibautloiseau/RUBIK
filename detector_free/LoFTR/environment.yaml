@@ -1,0 +1,14 @@
+name: loftr
+channels:
+  # - https://dx-mirrors.sensetime.com/anaconda/cloud/pytorch
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - pytorch-cuda=12.1
+  - pip
+  - pip:
+      - -r requirements.txt
